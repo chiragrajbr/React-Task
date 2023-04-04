@@ -6,13 +6,14 @@ import React from 'react'
 //import One from "./DCT/One"
 //import Two from './DCT/Two'
 //import Key from './DCT/Key'
+import User from './Props/User'
 
 
 
 const App = () => {
   return (
     <div>
-      <Link />
+      < User />
     </div>
   )
 }
