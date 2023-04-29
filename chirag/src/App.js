@@ -21,14 +21,26 @@ import React from 'react'
 //import One from './Hooks/Useref/One'
 //import Lo from './Login/Lo'
 //import Task1 from './intern_task/Task1'
-import Two from './Hooks/Useref/Two'
+//import Two from './Hooks/Useref/Two'
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Main from './Link/Main'
+import First from './Link/First'
+import Second from './Link/Second'
 
 
 
 const App = () => {
   return (
     <div>
-      <Two />
+   
+    <BrowserRouter>
+    <Main />
+    <Routes>
+      <Route  path='/first' element={<First/>}/>
+      <Route  path='/second' element={<Second/>}/>
+    </Routes>
+    </BrowserRouter>
+
     </div>
   )
 }
