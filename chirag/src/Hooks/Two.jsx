@@ -3,7 +3,7 @@ import React,{useState} from "react";
 const Two=()=>{
     let [msg,setMsg]=useState()
     let name_handler=()=>{
-        setMsg("message was viewd")
+        setMsg("message was viewed")
     }
     /*let gn_handler=()=>{
         setMsg("good night")

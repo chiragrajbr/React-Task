@@ -1,4 +1,5 @@
 import React from 'react'
+//import Login from './Login/Login'
 //import Disbale from './Disable'
 //import ShowMore from './ShowMore'
 //import Show from './Show'
@@ -15,15 +16,19 @@ import React from 'react'
 //import B1 from './Props1/B1'
 //import C1 from './Props1/C1'
 //import One from './Hooks/One'
-import Two from './Hooks/Two'
-
+//import Two from './Hooks/Two'
+//import Login1 from './Login/Login1'
+//import One from './Hooks/Useref/One'
+//import Lo from './Login/Lo'
+//import Task1 from './intern_task/Task1'
+import Two from './Hooks/Useref/Two'
 
 
 
 const App = () => {
   return (
     <div>
-      < Two />
+      <Two />
     </div>
   )
 }
